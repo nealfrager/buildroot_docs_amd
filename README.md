@@ -6,7 +6,7 @@ This page highlights AMD support for Buildroot as an alternative community Linux
 
 Buildroot is not WTS supported and should only be used by experienced users. However, Buildroot does use the same supported software as Yocto from the `https://www.github.com/Xilinx` repository. Any issues with this underlying software which can be duplicated using Yocto or Vitis are supported by WTS. But any issues with configuring Buildroot for custom hardware should be addressed to the Buildroot community.
 
-One exception to the above is the Zynq and Zynq MPSoC U-Boot Secondary Program Loader (SPL). While it is included with U-Boot and Buildroot, the WTS supported flow for the Zynq and Zynq MPSoC families is the First Stage Bootloader (FSBL). Experienced users are welcome to give the U-Boot SPL a try as it is documented here. However, if technical support is needed, the Xilinx recommendation is to build the `boot.bin` using the FSBL and `bootgen`. It is possible to use Yocto or Vitis for building a hardware specific `boot.bin` while still using Buildroot for building the Linux kernel and file system.
+One exception to the above is the Zynq and Zynq MPSoC U-Boot Secondary Program Loader (SPL). While it is included with U-Boot and Buildroot, the WTS supported flow for the Zynq and Zynq MPSoC families is the First Stage Bootloader (FSBL). Experienced users are welcome to give the U-Boot SPL a try as it is [documented here](https://xilinx-wiki.atlassian.net/wiki/spaces/A/pages/18842574). However, if technical support is needed, the Xilinx recommendation is to build the `boot.bin` using the FSBL and `bootgen`. It is possible to use Yocto or Vitis for building a hardware specific `boot.bin` while still using Buildroot for building the Linux kernel and file system.
 
 ---
 
@@ -34,7 +34,7 @@ One exception to the above is the Zynq and Zynq MPSoC U-Boot Secondary Program L
 
 Official Buildroot release activity and version information can be found at:
 
-- [Releases - Buildroot](https://buildroot.org/downloads/)
+- [Releases - Buildroot](https://buildroot.org/download.html)
 
 The following table correlates Buildroot LTS releases to the corresponding AMD releases.
 
