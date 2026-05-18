@@ -251,7 +251,7 @@ Modify:
 Add or update:
 
 ```diff
-+BR2_LINUX_KERNEL_CUSTOM_DTS_PATH="./buildroot_dts/xilinx/zynqmp_linux.dts"
++BR2_LINUX_KERNEL_CUSTOM_DTS_PATH="./buildroot_dts"
 -BR2_LINUX_KERNEL_INTREE_DTS_NAME="xilinx/zynqmp-zcu102-rev1.0"
 ```
 
@@ -333,7 +333,7 @@ Modify:
 Update:
 
 ```diff
-+BR2_LINUX_KERNEL_CUSTOM_DTS_PATH="./buildroot_dts/xilinx/versal_linux.dts"
++BR2_LINUX_KERNEL_CUSTOM_DTS_PATH="./buildroot_dts"
 -BR2_LINUX_KERNEL_INTREE_DTS_NAME="xilinx/versal-vek280-revB"
 ```
 
@@ -416,7 +416,7 @@ Update:
 
 ```diff
 +BR2_LINUX_KERNEL_DTS_SUPPORT=y
-+BR2_LINUX_KERNEL_CUSTOM_DTS_PATH="./buildroot_dts/xilinx/versal2_linux.dts"
++BR2_LINUX_KERNEL_CUSTOM_DTS_PATH="./buildroot_dts"
 ```
 
 ## 6. Rebuild Buildroot
