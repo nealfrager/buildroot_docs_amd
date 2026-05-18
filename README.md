@@ -541,12 +541,6 @@ flowchart TD
 
 ---
 
-> [!IMPORTANT]
-> For production systems requiring long-term vendor support,
-> AMD officially recommends supported Yocto/PetaLinux workflows.
-
----
-
 # License
 
 This README is derived from publicly available AMD/Xilinx wiki documentation and reformatted for GitHub compatibility.
